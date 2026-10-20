@@ -1,0 +1,41 @@
+﻿=== SEGMENT ===
+  Cat: {'id': 0, 'name': 'roads', 'supercategory': 'none'}
+  Cat: {'id': 1, 'name': 'leftroads', 'supercategory': 'roads'}
+  Cat: {'id': 2, 'name': 'rightroads', 'supercategory': 'roads'}
+  Cat: {'id': 3, 'name': 'uturnroads', 'supercategory': 'roads'}
+  Num images: 303
+  Num anns: 308
+  id: 0
+  image_id: 0
+  category_id: 1
+  bbox: [1, 356, 639.333, 283.714]
+  area: 181387.985
+  segmentation: type=list, len=1
+  iscrowd: 0
+  Image 0: {'id': 0, 'license': 1, 'file_name': 'IMG-20221027-WA0167_jpg.rf.c4ef981a1288350dfaf9b3612b3c475c.jpg', 'height': 640, 'width': 640, 'date_captured': '2023-02-07T14:56:34+00:00'}
+
+=== MINICOCO ===
+  Cat: {'id': 0, 'name': 'coco', 'supercategory': 'none'}
+  Cat: {'id': 1, 'name': 'airplane', 'supercategory': 'coco'}
+  Cat: {'id': 2, 'name': 'apple', 'supercategory': 'coco'}
+  Cat: {'id': 3, 'name': 'backpack', 'supercategory': 'coco'}
+  Cat: {'id': 4, 'name': 'banana', 'supercategory': 'coco'}
+  Total cats: 81
+  Num images: 1661
+  Num anns: 12854
+  id: 0
+  image_id: 0
+  category_id: 50
+  bbox: [211, 53, 351.36, 369.55]
+  area: 129845.088
+  segmentation: type=list, len=1
+  iscrowd: 0
+  Image 0: {'id': 0, 'license': 1, 'file_name': '000000281032_jpg.rf.00448cbad9ba98819f13e3005d2f61b7.jpg', 'height': 427, 'width': 640, 'date_captured': '2023-03-06T09:22:52+00:00'}
+
+=== IMAGENET ===
+  Total classes: 1000
+  0: tench, Tinca tinca
+  1: goldfish, Carassius auratus
+  2: great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
+  3: tiger shark, Galeocerdo cuvieri
+  4: hammerhead, hammerhead shark
